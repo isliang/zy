@@ -1,0 +1,31 @@
+{
+  "name": "isliang/zy",
+  "description": "something for my daughter",
+  "version": "1.0.0",
+  "license": [
+    "Apache-2.0"
+  ],
+  "authors": [
+    {
+      "name": "isliang",
+      "email": "yesuhuangsi@163.com",
+      "homepage": "https://github.com/isliang",
+      "role": "Owner"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  },
+  "require": {
+    "isliang/ipf": "@dev",
+    "guzzlehttp/guzzle": "~6.0"
+  }
+}
